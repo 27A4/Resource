@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Miền tây Food</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+<!--  Embed CSS here-->
+  
+   
+</head>
+<body>
+
+	<div class="container-fluid"> <!--Tạo khung chứa tràn 100% chiều rộng của màn hình-->
+	
+		<div class="row"> <!--class="row": tạo 1 dòng hệ thống chia lưới của bookstrap  -->
+			<nav class="navbar"  role="navigation"> <!--Thẻ định nghĩa thanh điều hướng, hỗ trợ đọc màn hình nhận diện đây là trang menu-->
+			  <div class="container-fluid"> <!--Bọc toàn bộ các phần tử trong thanh điều hướng để đảm bảo lề và khoảng cách căn chỉnh đều 2 bên-->
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header"> <!--Thẻ định nghĩa phần đầu của thanh điều hướng; chứa thương hiệu logo và nút mửo menu trên màn hình nhỏ-->
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<!--Nút thu gọn, mở menu dạng 3 dấu gạch(hambuger icon) hiển thị trên giao diện điện thoại-->
+					<span class="sr-only">Toggle navigation</span> <!--Dòng chữ ẩn chỉ dành cho người đọc màn hình dành cho người khiếm thị-->
+					<span class="icon-bar"></span> <!--3 dòng: Tạo ra 3 gạch ngang màu trắng bên trong nút mở menu-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<a class="navbar-brand" href="#"><img src="images/Logoamthuc.jpg" />  </a>
+                    <!--Nơi chứa logo hoặc tên thương hiệu website-->
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--Khung chứa danh sách các liên kết menu. Trên màn hình máy tính sẽ hiển thị dạng hàng ngang, còn trên điện thoại sẽ tự động ẩn đi và chỉ hiện ra khi bấm vào nút hamburger.-->
+				  <ul class="nav navbar-nav"> <!--Danh sách các liên kết menu-->
+					<li> <a href="index.html">Trang chủ</a> </li> <!--Mục menu liên kết đến trang chủ-->
+					<li ><a href="#">Giới Thiệu</a></li>
+					<li ><a href="#">Menu</a></li>
+					<li><a href="#">Tiệc Gia Đình</a></li>
+					<li><a href="#">Tiệc Buffet</a></li>
+					<li>  <a href="#">Liên Hệ</a>  </li>
+				  </ul>
+
+
+				  <form class="navbar-form navbar-right" role="search"> <!--Tạo form tìm kiếm nằm ở bên phải () của thanh menu Bootstrap-->
+					<div class="form-group"> <!--Nhóm các phần tử form-->
+					  <input type="text" class="form-control" placeholder="Search"> <!--Ô nhập liệu tìm kiếm-->
+					</div>
+					<button type="submit" class="btn btn-default">Tìm Kiếm</button> <!--Nút submit form tìm kiếm-->
+				  </form>
+				</div>
+			  </div>
+			</nav>
+		</div>
+			
+			 
+		
+		<div class="row"><!--Tạo một hàng chứa tiêu đề chính và các đoạn văn giới thiệu về ẩm thực, đặc sản miền Tây-->
+			<div >
+				<h1>Ngất ngây với TOP 9 đặc sản miền Tây ngon khó cưỡng</h1> <!--Tiêu đề chính của trang-->
+				<p>Đặc sản miền Tây là những món ăn dân dã vừa ngon, vừa lạ. Một thiên đường ẩm thực tại miền Tây Nam Bộ luôn là điều thôi thúc du khách đến tham quan và trải nghiệm nơi đây. </p>
+				<!--Mô tả ngắn về đặc sản miền Tây-->
+				<p>Ẩm thực không đơn thuần chỉ là các món ăn mà còn là nền đặc trưng của mỗi đất nước. Việt Nam cũng vậy, các món ăn mang đậm hương vị quê nhà nhưng không kém phần thơm ngon, đặc sắc. Theo chân ReviewNao cùng điểm qua top 9 món ăn Việt Nam nhắc đến là ai cũng biết.</p>
+				<div>
+					<img src="images/bannermientay.jpg" alt="dac san mien tay" />
+					<!--Hình ảnh minh họa cho đặc sản miền Tây, hiển thị bức ảnh lớn cho website-->
+				</div>
+			</div>
+
+			<div>
+				<h3>Các món ăn khách hàng thích nhất</h3>
+				<div>
+					<img src="images/banh-canh-ca-loc.jpg"  alt="Banh canh ca loc"/>
+					<h3> Bánh Canh Cá Lóc</h3>
+				</div>
+				
+				<div>
+					<img src="images/Banhcanhcua.jpg"  alt="Banh Canh cua" />
+					<h3> Bánh Canh Cua</h3>
+				</div>
+				
+				<div>
+					<img src="images/comtam.jpg" alt="Cơm Tấm" />
+					<h3> Cơm Tấm</h3>
+				</div>
+				
+				<div>
+					<img src="images/comchienduongchau.jpg" alt="Com chien duong chau" />
+					<h3> Cơm Chiên Dương Châu</h3>
+				</div>
+				
+				<div>
+					<img src="images/Bunthitnuong.jpg" alt="Bun Thit Nuong" />
+					<h3> Bún Thịt Nướng</h3>
+				</div>
+			</div>
+		</div>
+	
+    		<div>
+    			<h1>Nhà Hàng Luôn Nhận Đặt Tiệc Buffet Của Gia Đình Và Doanh Nghiệp</h1>
+    			<p>- Đặt tiệc buffet tại nhà hay tại công ty, Miền tây Food luôn có đa dạng các loại thực đơn buffet hấp dẫn với những món ăn khác nhau, linh động trong các mức giá riêng để khách hàng chọn lựa phụ hợp nhất với điều kiện kinh tế của mình.</p>
+				<p>- Đặt tiệc buffet giá rẻ không đồng nghĩa với dịch vụ không tốt. Miền tây Food luôn muốn mang đến cho người dùng những trải nghiệm hoàn hảo nhất với những mức giá và các chương trình khuyến mãi hấp dẫn nhất. Và đặc biệt là chất lượng của bữa tiệc vẫn phải luôn được đảm bảo chất lượng từ món ăn và dụng cụ. </p>
+    			<div>
+    				<img src="images/buffet01.jpg" alt="Buffet">
+    				<img src="images/buffet02.jpg" alt="Buffet02" />
+    			</div>
+    		</div>
+    	</div>
+           
+		
+		<div class="row">
+    		<div>
+    			<h1>Tiệc Gia Đình Với Menu Đa Dạng Cho Khách Hàng</h1>
+    			<p>- “Giá trị cao nhưng không đồng nghĩa giá cả cao” . Tại Miền tây Food, bạn không phải quá e ngại đến mức giá bạn phải chi trả nếu thấy món ăn quá đẳng cấp. Như chúng tôi luôn nói, món ăn là “linh hồn”, là điểm nhấn ấn tượng sắc nét, thể hiện sự đẳng cấp trong phong cách chế biến khi đó chỉ là những nguyên liệu thân quen, dễ tìm mà không phải nhất thiết là sơn hào hải vị. Vì vậy, đảm bảo một mức giá hợp lý luôn khiến bạn bất ngờ!  </p>
+    			<div>
+    				<img src="images/tiecgiadinh.jpg" alt="Tiec Gia Dinh">
+    			</div>
+    		</div>
+    	</div>
+		
+		<div class="row"> <!--Nội dung footer-->
+			
+			<div>
+				
+				<p>Email : MienTayFood@gmail.com</p>
+				<p>Address: 10 Dien Bien Phu Binh Thanh District, HCMC</p>
+				<h5>&copy; Copyright 2021. MienTayFood.VN</h5>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/Jquery.js"></script> <!--Thư viện jQuery bắt buộc để Bootstrap hoạt động.-->
+    <script src="js/bootstrap.min.js"></script> <!--Thư viện JavaScript của Bootstrap, giúp các thành phần tương tác như menu, modal, tooltip hoạt động., Thư viện JavaScript của Bootstrap hỗ trợ các hiệu ứng (như thu phóng menu mobile).-->
+	
+</body>
+	
+</html>
